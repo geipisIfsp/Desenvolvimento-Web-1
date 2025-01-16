@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulário Contato</title>
+</head>
+
+<body>
+    <header>
+        <h1>Formulário de Contato</h1>
+    </header>
+    <section>
+        <form action="">
+            <label for="nome">Nome e sobrenome</label>
+            <input type="text" name="nome" id="nome" placeholder="Digite seu nome completo">
+            <label for="email">E-mail</label>
+            <input type="text" name="email" id="email" placeholder="xxxxxxxxx@email.com">
+            <label for="tel">Telefone</label>
+            <input type="tel" name="tel" id="tel" placeholder="(xx) xxxxx-xxxx">
+            <label for="msg">Mensagem</label>
+            <textarea name="msg" id="msg"></textarea>
+            <div>
+                <h3>Como prefere nosso contato?</h3>
+                <input type="radio" id="pref-email" name="pref_contato" value="email">
+                <label for="pref-email">E-mail</label>
+                <input type="radio" id="pref-tel" name="pref_contato" value="tel">
+                <label for="pref-tel">Telefone</label>
+                <input type="radio" id="pref-whats" name="pref_contato" value="pref-whats">
+                <label for="pref-whats">Whatsapp</label>
+            </div>
+            <div>
+                <h3>Qual horário prefere ser atendido?</h3>
+                <select name="pref-horario" id="pref-horario">
+                    <option value="manha">Manhã</option>
+                    <option value="tarde">Tarde</option>
+                    <option value="noite">Noite</option>
+                </select>
+            </div>
+            <div>
+                <input type="checkbox" name="novidades" id="novidades" >
+                <label for="novidades">Gostaria de receber nossas novidades por e-mail?</label>
+            </div>
+            <input type="submit" value="Enviar formulário">
+        </form>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Dia</th>
+                    <th>Horários</th>
+                </tr>
+                <tr>
+                    <td>Segunda-feira</td>
+                    <td>8h - 20h</td>
+                </tr>
+                <tr>
+                    <td>Terça-feira</td>
+                    <td>8h - 20h</td>
+                </tr>
+                <tr>
+                    <td>Quarta-feira</td>
+                    <td>8h - 20h</td>
+                </tr>
+                <tr>
+                    <td>Quinta-feira</td>
+                    <td>8h - 20h</td>
+                </tr>
+                <tr>
+                    <td>Sexta-feira</td>
+                    <td>8h - 20h</td>
+                </tr>
+            </thead>
+        </table>
+    </section>
+    <footer>
+        <h2>Desenvolvido por GeiPis</h2>
+    </footer>
+</body>
+
+</html>

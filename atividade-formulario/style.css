@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    background-color: rgb(255, 102, 75);
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form {
+    font-size: 14pt;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    justify-content: space-around;
+    border-radius: 10px;
+    padding: 40px;
+    box-shadow: 2px 2px 2px rgb(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+}
+
+input,
+textarea {
+    font-size: 14pt;
+}
+
+input {
+    border: solid gray 1px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px 0 20px 0;
+}
+
+input[type=submit] {
+    cursor: pointer;
+    background-color: rgb(255, 0, 0, 0.5);
+    color: white;
+    border: 0;
+}
+
+input[type=submit]:hover {
+    cursor: pointer;
+    background-color: red;
+    color: white;
+    transition: all 0.1s;
+}
+
+textarea {
+    min-height: 100px;
+    max-height: 100px;
+    min-width: calc(100% - 20px);
+    max-width: calc(100% - 20px);
+    border: solid gray 1px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+textarea:focus,
+input:focus {
+    outline: none;
+}
+
+table {
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 10px;
+    border-spacing: 10px;
+    margin-bottom: 20px;
+}
+
+th, tr, td {
+    border-radius: 10px;
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: red;
+    padding: 10px;
+}
