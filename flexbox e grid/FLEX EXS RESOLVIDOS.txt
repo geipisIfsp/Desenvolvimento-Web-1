@@ -1,0 +1,38 @@
+FLEXFROG
+ex1 - justify-content: flex-end;
+ex2 - justify-content: center;
+ex3 - justify-content: space-around;
+ex4 - justify-content: space-between;
+ex5 - align-items: flex-end;
+ex6 - justify-content: center;
+align-items: center;
+ex7 - justify-content: space-around;
+align-items: flex-end;
+ex8 - flex-direction: row-reverse;
+ex9 - flex-direction: column;
+ex10 - flex-direction:column;
+align-items: center;
+ex11 - flex-direction: row;
+align-items: center;
+ex12 - flex-direction: column-reverse;
+justify-content: flex-end;
+ex13 - flex-direction:row-reverse;
+justify-content: center;
+align-items: flex-end;
+ex14 - order: 1;
+ex15 - order: -1;
+ex16 - align-self: flex-end;
+ex17 - order:1;
+align-self: flex-end;
+ex18 - flex-wrap: wrap;
+ex19 - flex-direction: column;
+flex-wrap: wrap;
+ex20 - flex-flow: column wrap;
+ex21 - align-content: flex-start;
+ex22 - align-content: flex-end;
+ex23 - flex-direction: column-reverse;
+align-content: center;
+ex24 - flex-flow: column-reverse wrap-reverse;
+justify-content: center;
+align-content: space-between;
+
