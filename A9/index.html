@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Visualizador de propriedade CSS</title>
+</head>
+<script src="script.js" defer></script>
+<body>
+    <div class="container">
+        <h1>Visualizador de border-radius</h1>
+        <div class="box-preview" id="box"></div>
+
+        <div class="input-group">
+            <label for="top-left">Top-left:</label>
+            <input type="number" id="top-left" value="20" min="0" max="100">
+        </div>
+        <div class="input-group">
+            <label for="top-right">Top-right:</label>
+            <input type="number" id="top-right" value="20" min="0" max="100">
+        </div>
+        <div class="input-group">
+            <label for="bottom-left">Bottom-left:</label>
+            <input type="number" id="bottom-left" value="20" min="0" max="100">
+        </div>
+        <div class="input-group">
+            <label for="bottom-right">Bottom-right:</label>
+            <input type="number" id="bottom-right" value="20" min="0" max="100">
+        </div>
+
+        <button id="generateCSS">Gerar CSS</button>
+
+        <div class="code-output" id="cssOutput">border-radius: 20px 20px 20px 20px;</div>
+
+        <button class="copy-btn" id="copyButton">Copiar CSS</button>
+    </div>
+</body>
+</html>
