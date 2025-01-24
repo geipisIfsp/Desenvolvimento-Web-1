@@ -1,0 +1,28 @@
+https://laboratoria.github.io/css-diner/
+
+ex1 - plate
+ex2 - bento
+ex3 - #fancy
+ex4 - plate apple
+ex5 - #fancy pickle
+ex6 - .small
+ex7 - orange.small
+ex8 - bento orange.small
+ex9 - plate, bento
+ex10 - *
+ex11 - plate *
+ex12 - plate + apple
+ex13 - bento ~ pickle
+ex14 - plate > apple
+ex15 - orange:first-child
+ex16 - plate apple,pickle:only-child
+ex17 - apple.small, pickle.small
+ex18 - plate:nth-child(3)
+ex19 - bento:nth-child(2)
+ex20 - apple:first-of-type
+ex21 - plate:nth-of-type(even)
+ex22 - plate:nth-of-type(2n+3)
+ex23 - plate apple:only-of-type
+ex24 - orange:last-of-type, apple:last-of-type
+ex25 - bento:empty
+ex26 - apple:not(.small)

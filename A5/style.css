@@ -1,0 +1,83 @@
+/* Reset básico para o layout */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+/* Header */
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+/* Main */
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+/* Seções */
+section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Títulos das seções */
+h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Artigos (exemplos) */
+article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 10px;
+    background-color: #dbe9f4;
+    border-radius: 4px;
+}
+
+article h3 {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    color: #333;
+}
+
+article p {
+    font-size: 1em;
+    color: #555;
+}
+
+/* Flexbox */
+.flexbox {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 0.9em;
+    color: #777;
+}
